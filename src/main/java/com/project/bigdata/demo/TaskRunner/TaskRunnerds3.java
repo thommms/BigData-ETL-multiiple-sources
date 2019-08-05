@@ -4,7 +4,6 @@ import com.google.common.util.concurrent.AbstractScheduledService;
 import com.project.bigdata.demo.Configuration.ApplicationConfig;
 import com.project.bigdata.demo.Producer.MaprStreamProducer;
 import com.project.bigdata.demo.Serialization.RowSerializer;
-import com.interswitch.bigdata.demo.dataaccess.*;
 import com.project.bigdata.demo.dataaccess.MapRDBRepository;
 import com.project.bigdata.demo.dataaccess.PersistentRepository4;
 import com.project.bigdata.demo.dataaccess.SQLServerDataProviderds3;
@@ -56,7 +55,7 @@ public class TaskRunnerds3 extends AbstractScheduledService implements Serializa
     @Override
     protected void runOneIteration() throws Exception {
 //        checkPoint= applicationConfig.getCurrentCheckPoint();
-        logger.info(String.format("Runing Iteration %s for Quickteller", runIterations));
+        logger.info(String.format("Runing Iteration %s for ds3", runIterations));
         List<Map<String,Object>> result = null;
         try{
             result = dataProvider.query(checkPoint);
@@ -88,7 +87,7 @@ public class TaskRunnerds3 extends AbstractScheduledService implements Serializa
                 });
             }
             if (applicationConfig.isSaveToDB()) {
-                System.out.println("===============================Pushing Quickteller to MapRDB===============================================");
+                System.out.println("===============================Pushing ds3 to MapRDB===============================================");
                 result.parallelStream().forEach((t) -> {
                     Object record = rowSerializer.serialize(t);
                     logger.info("Sending QT Record To DB");
@@ -142,7 +141,7 @@ public class TaskRunnerds3 extends AbstractScheduledService implements Serializa
         searchCriteria.put("key", utilities.buildKeyScheme());
         List<KeyValueItem> items = kevalueRepository.query(searchCriteria);
         if(items != null && items.size() > 0) {
-            System.out.printf("===================value for Quickteller=>%s =====================\n",items.get(0).getValue());
+            System.out.printf("===================value for ds3=>%s =====================\n",items.get(0).getValue());
             checkPoint = Long.parseLong(items.get(0).getValue());
             System.out.println("We Retrieved The Checkpoint with value "+checkPoint);
         }

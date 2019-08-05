@@ -4,7 +4,6 @@ import com.google.common.util.concurrent.AbstractScheduledService;
 import com.project.bigdata.demo.Configuration.ApplicationConfig;
 import com.project.bigdata.demo.Producer.MaprStreamProducer;
 import com.project.bigdata.demo.Serialization.RowSerializer;
-import com.interswitch.bigdata.demo.dataaccess.*;
 import com.project.bigdata.demo.dataaccess.MapRDBRepository;
 import com.project.bigdata.demo.models.KeyValueItem;
 import com.project.bigdata.demo.utils.RowComparator;
@@ -142,7 +141,7 @@ public class TaskRunnerds2 extends AbstractScheduledService implements Serializa
         searchCriteria.put("key", utilities.buildKeyScheme());
         List<KeyValueItem> items = kevalueRepository.query(searchCriteria);
         if(items != null && items.size() > 0) {
-            System.out.printf("===================value for paydirect=>%s =====================\n",items.get(0).getValue());
+            System.out.printf("===================value for ds2=>%s =====================\n",items.get(0).getValue());
             checkPoint = Long.parseLong(items.get(0).getValue());
             System.out.println("We Retrieved The Checkpoint with value "+checkPoint);
         }

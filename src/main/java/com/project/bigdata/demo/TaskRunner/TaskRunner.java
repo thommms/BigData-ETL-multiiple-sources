@@ -144,7 +144,7 @@ public class TaskRunner extends AbstractScheduledService implements Serializable
         searchCriteria.put("key", utilities.buildKeyScheme());
         List<KeyValueItem> items = kevalueRepository.query(searchCriteria);
         if(items != null && items.size() > 0) {
-            System.out.printf("===================value for vtucare=>%s =====================\n",items.get(0).getValue());
+            System.out.printf("===================value for ds1 =>%s =====================\n",items.get(0).getValue());
             checkPoint = Long.parseLong(items.get(0).getValue());
             System.out.println("We Retrieved The Checkpoint with value "+checkPoint);
         }

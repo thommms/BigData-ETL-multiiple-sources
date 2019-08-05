@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d778730a-baca-4469-bb89-7f8ce6c49e41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Bigdata_ETL_datasources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Bigdata_ETL_datasources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Configuration/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Configuration/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Producer/MaprStreamProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Producer/MaprStreamProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Serialization/DateSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Serialization/DateSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Serialization/JsonRowSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Serialization/JsonRowSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Serialization/RowSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Serialization/RowSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/TaskRunner/TaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/TaskRunner/TaskRunnerds2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/TaskRunner/TaskRunnerds3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/MapRDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/MapRDBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/PersistentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/PersistentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/PersistentRepository4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/PersistentRepository4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/PersistentRepositoryds2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/PersistentRepositoryds2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/PersistentRepositoryds3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/PersistentRepositoryds3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/SQLServerDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/SQLServerDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/SQLServerDataProviderds2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/SQLServerDataProviderds2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/dataaccess/SQLServerDataProviderds3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/SQLServerDataProviderds3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/models/KeyValueItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/models/KeyValueItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/utils/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/ConnectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/utils/RowComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/RowComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/utils/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/utils/Utilitiesds2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilitiesds2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/utils/Utilitiesds3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilitiesds3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,59 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/SQLServerDataProviderds2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilitiesds2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilitiesds3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="44" column="103" selection-start-line="44" selection-start-column="103" selection-end-line="44" selection-end-column="103" />
+            <state relative-caret-position="322">
+              <caret line="143" column="43" lean-forward="true" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,20 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/dataaccess/SQLServerDataProviderds3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            <state relative-caret-position="-1715">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Bigdata_ETL_datasources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="595">
               <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,7 +54,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/RowComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -142,13 +85,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3959">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="100" column="89" selection-start-line="100" selection-start-column="89" selection-end-line="100" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1987">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -183,6 +150,8 @@
       <find>zook</find>
       <find>spark</find>
       <find>isw</find>
+      <find>quickteller</find>
+      <find>paydirec</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\thomas.okonkwo\Documents\bigdata_etl_multiple_sources\src\main\java\com\interswitch\bigdata\demo</dir>
@@ -225,6 +194,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/TaskRunner/TaskRunnerds3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interswitch/bigdata/demo/Bigdata_ETL_datasources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Bigdata_ETL_datasources.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java" />
       </list>
     </option>
   </component>
@@ -277,7 +250,26 @@
               <item name="bigdata_etl_multiple_sources_git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata_etl_multiple_sources_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata_etl_multiple_sources_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata_etl_multiple_sources_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata_etl_multiple_sources_git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,13 +286,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564992532420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564993815776" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thomas.okonkwo\Documents\bigdata_etl_multiple_sources_git" />
       <recent name="C:\Users\thomas.okonkwo\Documents\bigdata_etl_multiple_sources\src\main\resources" />
       <recent name="C:\Users\thomas.okonkwo\Documents\bigdata_etl_multiple_sources\src\main\java\com\interswitch\bigdata\Bigdata_ETL_sources" />
     </key>
@@ -351,15 +344,24 @@
       <workItem from="1564408537104" duration="73940000" />
       <workItem from="1564786458358" duration="598000" />
       <workItem from="1564928890377" duration="1720000" />
-      <workItem from="1564988262935" duration="4243000" />
+      <workItem from="1564988262935" duration="5150000" />
     </task>
+    <task id="LOCAL-00001" summary="Added the .gitignore file">
+      <created>1564993587207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564993587207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81866000" />
+    <option name="totallyTimeSpent" value="82773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,6 +400,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the .gitignore file" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interswitch/bigdata.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Serialization/RowSerializer.java">
@@ -428,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/RowComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -619,16 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilitiesds2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -649,39 +638,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="100" column="89" selection-start-line="100" selection-start-column="89" selection-end-line="100" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-3959">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/Bigdata_ETL_datasources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="595">
           <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -689,10 +676,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="799">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/utils/RowComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1987">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunnerds2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1715">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/bigdata/demo/TaskRunner/TaskRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="143" column="43" lean-forward="true" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
